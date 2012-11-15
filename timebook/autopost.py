@@ -35,12 +35,12 @@ class TimesheetPoster(object):
         self.timesheet_url = db.config.get_with_default(
                 self._config_section,
                 'timesheet_url',
-                'http://www.parthenonsoftware.com/timesheet/timesheet.php'
+                'http://crm.parthenonsoftware.com/timesheet/timesheet.php'
                 )
         self.login_url = db.config.get_with_default(
                 self._config_section,
                 'login_url',
-                'http://www.parthenonsoftware.com/timesheet/index.php'
+                'http://crm.parthenonsoftware.com/timesheet/index.php'
                 )
         self.date = date
         self.db = db
